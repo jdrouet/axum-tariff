@@ -30,8 +30,7 @@ cargo add axum-tariff
 ```rust,no_run
 use axum::{routing::get, Router};
 use std::{net::IpAddr, time::Duration};
-use axum_tariff::Config;
-use maxminddb::Reader;
+use axum_tariff::{Config, Reader};
 
 #[tokio::main]
 async fn main() {
