@@ -1,0 +1,21 @@
+[package]
+name = "axum-tariff"
+version = "0.1.0"
+edition = "2024"
+description = "An Axum middleware to apply request delay tariffs based on client IP address."
+authors = ["Jeremie Drouet <jeremie.drouet@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/jdrouet/axum-tariff"
+homepage = "https://github.com/jdrouet/axum-tariff"
+readme = "readme.md"
+keywords = ["axum", "middleware", "rate-limit", "delay", "ip"]
+categories = ["web-programming", "network-programming"]
+documentation = "https://docs.rs/axum-tariff"
+
+[dependencies]
+axum = { version = "0.8", features = ["macros"] }
+tokio = { version = "1", features = ["full"] }
+http = "1"
+maxminddb = "0.26"
+tower = "0.5.2"
+futures-util = "0.3.31"
