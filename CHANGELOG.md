@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2](https://github.com/jdrouet/axum-tariff/compare/v0.1.1...v0.1.2) - 2025-05-07
+
+### Other
+
+- *(deps)* Bump tokio from 1.44.2 to 1.45.0 ([#4](https://github.com/jdrouet/axum-tariff/pull/4))
+
 ## [0.1.1](https://github.com/jdrouet/axum-tariff/compare/v0.1.0...v0.1.1) - 2025-05-01
 
 ### Fixed
