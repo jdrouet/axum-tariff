@@ -16,6 +16,6 @@ documentation = "https://docs.rs/axum-tariff"
 axum = { version = "0.8", features = ["macros"] }
 tokio = { version = "1", features = ["full"] }
 http = "1"
-maxminddb = "0.26"
+maxminddb = "0.27"
 tower = "0.5.2"
 futures-util = "0.3.31"
