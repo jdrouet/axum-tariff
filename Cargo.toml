@@ -17,5 +17,5 @@ axum = { version = "0.8", features = ["macros"] }
 tokio = { version = "1", features = ["full"] }
 http = "1"
 maxminddb = "0.26"
-tower = "0.5.2"
+tower = "0.5.3"
 futures-util = "0.3.31"
